@@ -4,18 +4,46 @@
 
 .header {
   background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
 }
 
-.main {
-  padding-top: 40px;
-  background-color: #1c1c1e;
-  
-  min-height: 100%; 
-  height: auto !important;
-  height: 100%; 
-  margin: 0 auto 0;
-  vertical-align: bottom;
+.header ul {
+  padding: 0;
+  list-style: none;
 }
+
+  .main {
+    background-image: url("https://img.freepik.com/photos-gratuite/belle-voie-lactee-dans-ciel-nocturne_53876-139825.jpg?w=1800&t=st=1668968081~exp=1668968681~hmac=052649ae06054a084c7f8566a12c1e553b11764362c6486111d4ae4c1cd90bb5");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .main button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
 
 .footer {
   background-color: #000;
@@ -27,6 +55,7 @@
   padding: 0;
   list-style: none;
 }
+
 
 .footer a {
   color: #aaa;
