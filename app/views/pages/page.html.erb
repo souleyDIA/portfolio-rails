@@ -1,35 +1,16 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-      <div class="card">
-        <%= image_tag("movies-home.png", :class => "card-img-top", :alt => "music-home") %>
-        <div class="card-body">
-          <h5 class="card-title">Description</h5>
-          <p class="card-text">S App that allows you to search for movies and add them to your watchlist.</p>
-          <a href="#" class="btn btn-primary">View App</a>
+     <% @projects.each do |project| %>
+        <div class="card">
+          <%= image_tag(project.image, :class => "card-img-top", :alt => "music-home") %>
+          <div class="card-body">
+            <h5 class="card-title">Description</h5>
+            <p class="card-text"><%=project.description%></p>
+            <a href="#" class="btn btn-primary">View App</a>
+          </div>
         </div>
-      </div>
+     <% end %>
     </div>
-    <div class="col-md-4">
-      <div class="card">
-        <%= image_tag("bolt-network-home.png", :class => "card-img-top", :alt => "music-home") %>
-        <div class="card-body">
-          <h5 class="card-title">Description</h5>
-          <p class="card-text"> The bolt network is a social media app that allows you to connect with other users.</p>
-          <a href="#" class="btn btn-primary">View App</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <%= image_tag("bass-music-home.png", :class => "card-img-top", :alt => "music-home") %>
-
-        <div class="card-body">
-          <h5 class="card-title">Description</h5>
-        <p class="card-text">This application is a music player that allows you to listen to your favorite music.</p>
-        <a href="#" class="btn btn-primary">View App</a>
-        </div>
-    </div>
-</div>
-</div>
+  </div>
 </div>

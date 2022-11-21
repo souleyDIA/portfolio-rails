@@ -3,5 +3,6 @@ class PagesController < ApplicationController
   end
   
   def page
+    @projects = Project.all
   end
 end
