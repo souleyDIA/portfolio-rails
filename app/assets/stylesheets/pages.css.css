@@ -1,8 +1,6 @@
 body {
-  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
 }
 
 .header {
@@ -46,7 +44,11 @@ body {
 }
 
 .main {
-  background-image: url("https://img.freepik.com/photos-gratuite/belle-voie-lactee-dans-ciel-nocturne_53876-139825.jpg?w=1800&t=st=1668968081~exp=1668968681~hmac=052649ae06054a084c7f8566a12c1e553b11764362c6486111d4ae4c1cd90bb5");
+  background-image: url("https://img.freepik.com/photos-gratuite/composition-abstraite-lumiere-ultraviolette-uv_23-2149243976.jpg?w=1380&t=st=1669109231~exp=1669109831~hmac=9afe10b7ed314bf0d0e8e7e533e277a23a3b95e03569458aa008859a7adaf271");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
   padding: 20px 0;
   color: #fff;
 }
@@ -67,11 +69,24 @@ body {
   padding: 0;
 }
 
+.main .btn {
+  align-self: center;
+  display: block;
+  margin: 20px auto;
+}
+
 .card {
   background-color: #000;
   max-width: 300px;
   text-align: center;
   margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.about {
+  margin: 50px;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 10px;
