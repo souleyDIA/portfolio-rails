@@ -19,6 +19,7 @@
         <li><%= link_to "Welcome", welcome_path %></li>
         <li><a href="/portfolio"><%= link_to "Portfolio", page_path %></a></li>
         <li><a href="/about"><%= link_to "About", about_path %></a></li>
+        <li><a href="/contact"><%= link_to "Contact", contact_path %></a></li>
       </ul>
     </nav>
   </div>
@@ -30,10 +31,9 @@
   <div class="footer">
     <div class="container">
       <ul>
-        <li><a href="https://github.com/souleyDIA"><%= favicon_link_tag 'github.png' %>
-</a></li>
-        <li><a href="https://www.linkedin.com/in/souleymane-dia-9871b219b/">LinkedIn</a></li>
-        <li><a href="sjjsjskk">Twitter</a></li>
+        <li><a href="https://github.com/souleyDIA"><%= image_tag("github.png", style: 'height10%;width:10%;') %></a></li>
+        <li><a href="https://www.linkedin.com/in/souleymane-dia-9871b219b/"><%= image_tag("linkedin.png", style: 'height:10%;width:10%;') %></a></li>
+        <li><a href="#"><%= image_tag("twitter.png", style: 'height:10%;width:10%;') %></a></li>
       </ul>
       <p>&copy; 2022 Souleymane DIA</p>
     </div>

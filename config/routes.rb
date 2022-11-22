@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 get "/" => "pages#welcome", as: :welcome
 get "pages" => "pages#page", as: :page
 get "about" => "pages#about", as: :about
+get "contact" => "pages#contact", as: :contact
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

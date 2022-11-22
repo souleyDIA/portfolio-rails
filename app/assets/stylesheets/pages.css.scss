@@ -48,9 +48,27 @@ body {
   color: #f00;
 }
 
+.container {
+  margin-top: 50px;
+}
 
-  .main {
-  background-image: url("https://img.freepik.com/photos-gratuite/composition-abstraite-lumiere-ultraviolette-uv_23-2149243976.jpg?w=1380&t=st=1669109231~exp=1669109831~hmac=9afe10b7ed314bf0d0e8e7e533e277a23a3b95e03569458aa008859a7adaf271");
+.row {
+  margin: 50px;
+}
+p a {
+  text-decoration: none;
+  color: red;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+p a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
+
+.main {
+  background-image: url("https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-tableau-noir-tableau-noir-beton_1258-52289.jpg?w=1480&t=st=1669112591~exp=1669113191~hmac=0e82779c6abb669e187ef8c5550b714191d51071b94e0dfd504f07934789f9a9");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,7 +102,6 @@ body {
   background-color: #000;
   max-width: 300px;
   text-align: center;
-
   margin: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -101,7 +118,7 @@ body {
 .footer {
   background-color: #fff;
   padding: 20px 0;
-  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .footer .container {
