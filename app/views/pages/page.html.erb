@@ -1,16 +1,33 @@
-<div class="container">
-  <div class="row">
-      <% @projects.each do |project| %>
-      <div class="col-md-4">
-          <div class="card">
-            <%= image_tag(project.image, :class => "card-img-top", :alt => "music-home") %>
-            <div class="card-body">
-              <h5 class="card-title">Description</h5>
-              <p class="card-text"><%=project.description%></p>
-              <a href="#" class="btn btn-primary">View App</a>
-            </div>
-          </div>
+<div class="page">
+  <div class="cards-container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="main-image">
+          <%= image_tag("stories-home.png",  style: 'height: 100%;width: 100%;',  :alt => "stories-home") %>
+        </div>
       </div>
-      <% end %>
+      <div class="col-md-6">
+        <div class="main-text">
+          <h1>Stories</h1>
+          <p>Stories is a social media app that allows users to share their stories with the world. Users can create an account, post stories, and follow other users.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+        <% @projects.each do |project| %>
+        <div class="col-md-4">
+            <div class="card">
+              <%= image_tag(project.image, :class => "card-img-top", :alt => "images") %>
+              <div class="card-body">
+                <h5 class="card-title">Description</h5>
+                <p class="card-text"><%=project.description%></p>
+                <a href="#" class="btn btn-primary">View App</a>
+              </div>
+            </div>
+        </div>
+        <% end %>
+    </div>
   </div>
 </div>

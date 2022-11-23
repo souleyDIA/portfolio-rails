@@ -14,3 +14,8 @@ Project.create(image: "bolt-network-home.png", description: "The bolt network is
 Project.create(image: "bolt-network-about.png", description: "The bolt network about page.")
 Project.create(image: "bass-music-home.png", description: "This application is a music player that allows you to listen to your favorite music.")
 Project.create(image: "bass-music-details.png", description: "Display the details of a specific album.")
+Project.create(image: "stories-menu-home.png", description: "Display the home menu page")
+Project.create(image: "storie-page-1.png", description: "Display the first home page")
+Project.create(image: "stories-page-2.png", description: "Display the seconde home page")
+Project.create(image: "stories-contact.png", description: "Display the contact page")
+Project.create(image: "stories-signup.png", description: "Display the signup page")
