@@ -112,14 +112,14 @@ p a:hover {
   padding: 10px;
 }
 
+.footer .container {
+  text-align: center;
+}
+
 .footer {
   background-color: #fff;
   padding: 20px 0;
   border-bottom: 1px solid #ddd;
-}
-
-.footer .container {
-  text-align: center;
 }
 
 .footer .container ul {
@@ -129,13 +129,13 @@ p a:hover {
 }
 
 .footer .container ul li {
-  display: inline-block;
+  display: inline;
   margin: 0 10px;
 }
 
 .footer .container ul li a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   font-size: 18px;
   font-weight: 300;
 }
